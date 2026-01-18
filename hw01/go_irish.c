@@ -12,25 +12,25 @@ int main() {
 	printf("x = %d  y = %d  sum = %d\n", x, y, x+y);
 
 	x = 41;
-	printf("%d %x %c\n", x, x, x);
+	printf("dec: %d hex: %x char: %c\n", x, x, x);
 
 	x = 0x74;
-	printf("%d %x %c\n", x, x, x);
+	printf("dec: %d hex: %x char: %c\n", x, x, x);
 
 	x = '4';
-	printf("%d %x %c\n", x, x, x);
+	printf("dec: %d hex: %x char: %c\n", x, x, x);
 
 	printf("\n");
 
 	// Part 3
-    printf("%x %x %x\n", -1, -2, -3);
-    printf("%d %d %d %d\n", 0x7ffffffe, 0x7fffffff, 0x80000000, 0x80000001);
+    printf("hex values of -1, -2, -3: %x %x %x\n", -1, -2, -3);
+    printf("decimal values in question 3.3: %d %d %d %d\n", 0x7ffffffe, 0x7fffffff, 0x80000000, 0x80000001);
 
 	printf("\n");
 
 	// Part 4
     unsigned int p4 = 0xffffffff;
-    printf("%u\n", p4);
+    printf("unsigned integer 0xffffffff: %u\n", p4);
 
 	printf("\n");
 
