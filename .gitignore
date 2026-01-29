@@ -1,3 +1,10 @@
 hw01/go_irish
+
 hw02/disassembler
 hw02/overflow
+
+hw03/p1/p1_global_scalar
+hw03/p2/p2_global_array
+hw03/p6/p6_mult
+hw03/p6/p6_mult_while
+
